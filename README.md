@@ -39,7 +39,13 @@ add this seed data
 }
 `
 
-Server address = http://https://walletsys.herokuapp.com/api/v1
+Server address = https://walletsys.herokuapp.com/api/v1
+
+##Technologies used 
+
+`
+- Flask python framework
+- Mongodb`
 
 
 

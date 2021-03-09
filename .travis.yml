@@ -1,0 +1,19 @@
+language: python
+
+python:
+  - 2.7
+  - 3.6
+  - 3.8
+
+before_install:
+  - pip install codecov
+
+install: "pip install -r requirements.txt"
+
+script:
+  - python tests/e2e/rest/auth/auth.py
+  - python tests/e2e/rest/auth/login.py
+  - python tests/e2e/rest/wallet/wallet.py
+
+after_success:
+  - codecov 

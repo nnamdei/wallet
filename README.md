@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/nnamdei/wallet.svg?branch=main)](https://travis-ci.org/nnamdei/wallet)
+
 ## wallet system
 
 A wallet system with three user types (noob, elite and admin)
@@ -41,11 +43,12 @@ add this seed data
 
 Server address = https://walletsys.herokuapp.com/api/v1
 
-##Technologies used 
+## Technologies used 
 
-`
+
 - Flask python framework
-- Mongodb`
+- Mongodb
+
 
 
 
